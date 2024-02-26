@@ -1,2 +1,4 @@
 #!/bin/bash
-netstat -p
+# Bash script that displays listening ports
+
+sudo netstat -p
