@@ -1,0 +1,11 @@
+#!/bin/bash
+# Ping an IP adress 5 times
+
+# If nb of arguments is not 1
+if [ $# -ne 1 ]; then
+    echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
+	exit 1
+# Send 5 ICMP echo request packets
+else
+    ping -c 5 "$1"
+fi
