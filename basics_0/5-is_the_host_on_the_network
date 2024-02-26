@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Ping an IP adress 5 times
 
 # If nb of arguments is not 1
